@@ -1,0 +1,82 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  /* border: 1px solid red; */
+
+  /* font configs */
+  font-family: "Source code pro";
+  color: teal;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background-color: papayawhip; */
+
+  /* background image things */
+  /* background-image: url("assets/wall1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: cover; */
+}
+
+/* containers ============================================================ */
+.main-container {
+  /* border: 1px solid green;  */        /* debugging border */
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 60%;
+  padding: 2rem;
+  /* background-color: papayawhip; */
+  /* opacity: 0.6; */
+  background-color: rgba(245, 255, 241, 0.7);
+}
+.image-container {
+  /* border: 1px solid chartreuse; */   /* debugging border */
+  padding-right: 1rem;
+  width: 30%;
+  flex-grow: 1;
+  align-items: center;
+}
+.content-container {
+  /* border: 1px solid darkgreen; */     /* debugging border */
+  padding: 4em 8em;
+  width: 70%;
+  align-items: center;
+  flex-grow: 5;
+}
+
+/* image ================================================================================ */
+.profile {
+  width: 18rem;
+  height: auto;
+
+  border: 5px solid teal;
+  border-radius: 999px;
+}
+
+/* contents ============================================================ */
+.title {
+  font-size: 4em;
+}
+
+/* link decoration */
+a {
+  text-decoration: none;
+}
+
+/* icon things: size, hover, active */
+.li-ico {
+  font-size: 3em;
+}
+
+.li-ico:hover {
+  color: rgb(245, 255, 241);
+}
+
+.li-ico:active {
+  color: pink;
+}
